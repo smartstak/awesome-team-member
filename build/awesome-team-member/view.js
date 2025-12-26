@@ -1,0 +1,1 @@
+console.log("Hello World! (from awesome-blocks-awesome-team-member block)");

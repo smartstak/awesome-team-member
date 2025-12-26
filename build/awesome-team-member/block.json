@@ -1,0 +1,80 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "awesome-blocks/awesome-team-member",
+  "version": "0.1.0",
+  "title": "Awesome Team Member",
+  "category": "design",
+  "icon": "smiley",
+  "description": "Block that shows team member",
+  "example": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Tushar Sharma"
+    },
+    "designation": {
+      "type": "string",
+      "default": "Sr. WordPress Developer"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "imageWidth": {
+      "type": "number",
+      "default": 150
+    },
+    "imageRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "nameColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "nameFontSize": {
+      "type": "number",
+      "default": 24
+    },
+    "nameFontSizeType": {
+      "enum": [
+        "px",
+        "em",
+        "rem"
+      ]
+    },
+    "designationColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "designationFontSize": {
+      "type": "number",
+      "default": 24
+    },
+    "designationFontSizeType": {
+      "enum": [
+        "px",
+        "em",
+        "rem"
+      ]
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": true,
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "typography": {
+      "fontSize": true,
+      "textAlign": true,
+      "lineHeight": true
+    }
+  },
+  "textdomain": "awesome-team-member",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

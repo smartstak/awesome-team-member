@@ -1,1 +1,1 @@
-"# awesome-team-member" 
+# Awesome Team Member
